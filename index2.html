@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="imagenes/logopizza.jpg"  alt="Chef agarrando una pizza con la mano derecha"width="200" height="150">
+    <h1>Pizzeria DEV.F</h1>
+    <p>Venta de Pizzas por medio de pedidos online, rellena el formulario para clientes para su pedido:</p>
+    <form>
+        <input
+          name="name"
+          type="text"
+          placeholder="Ingresa tu nombre"
+          maxlength="20"
+          minlength="2"
+          required
+        />
+        <input 
+          name="Email"
+          type="text"
+          placeholder="Ingresa tu email"
+          required>
+        <input 
+          name="Direccion"
+          type="text"
+          placeholder="Ingresa tu Direccion"
+          required>
+        <br>
+        <br>
+        <p>Selecciona una hora aproximada para poder enviar tu pizza</p>
+        <select 
+            name="Hora de entrega apropiada aproximada"/>
+               <option value="" selected hidden disabled >Selecciona Hora de entrega aproximada</option>
+               <option value="13:00 hrs - 14:00 hrs">13:00 hrs - 14:00 hrs</option>
+               <option value="14:00 hrs - 15:00 hrs">14:00 hrs - 15:00 hrs</option>
+               <option value="15:00 hrs - 16:00 hrs">15:00 hrs - 16:00 hrs</option>
+               <option value="16:00 hrs - 17:00 hrs">16:00 hrs - 17:00 hrs</option>
+          required
+       </select>
+       <br>
+       <br>
+       <p>Selecciona el tipo de pizza que desees</p>
+       <select
+          name="Tipo de pizza">
+             <option value="Pizza napolitana">Pizza napolitana</option>
+             <option value="Pizza de pepperoni">Pizza de pepperoni</option>
+             <option value="Pizza vegana">Pizza vegana</option>
+             <option value="Pizza de 4 quesos">Pizza de 4 quesos</option>
+            </select>
+            <br>
+            <br>
+
+            <button type="submit">Enviar informacion
+            </button>
+            <button type="reset">Resetear informacion</button>
+            <p>!Gracias por pedir en Pizzeria DEV.F¡</p>
+    </form>
+</body>
+</html>
